@@ -1,5 +1,15 @@
 --!strict
 
+--[[
+
+
+DEMO VIDEO:
+
+https://drive.google.com/file/d/1Jvolb5DOQJ1Mh5wmxF1DcH-S1w-6vyqn/view?usp=sharing
+
+
+]]
+
 local MazeGenerator = {}
 MazeGenerator.__index = MazeGenerator
 
