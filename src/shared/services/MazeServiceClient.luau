@@ -22,8 +22,6 @@ function MazeServiceClient.init(self: MazeServiceClient): ()
 end
 
 function MazeServiceClient.generate(self: MazeServiceClient, width: number, height: number): ()
-	print(width, height)
-
 	self.networker:fire("generate", width, height)
 end
 
